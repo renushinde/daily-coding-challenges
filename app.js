@@ -42,3 +42,11 @@ addTwoNumbers(0, 0) //=> 0
 addTwoNumbers('Hello', 5) //=> NaN
 -----------------------------------------------------------------------------*/
 // Your solution for 02-addTwoNumbers here:
+function addTwoNumbers(num1, num2) {
+  if (num1 < 0 || num2 < 0) {
+    return NaN;
+  } else {
+    return num1 + num2;
+  }
+}
+console.log(addTwoNumbers(-10, 2));
